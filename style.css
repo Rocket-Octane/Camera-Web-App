@@ -1,3 +1,6 @@
+body{
+    background-color: lightgrey;
+}
 #start-btn
 {
     width: 40%;
@@ -16,4 +19,28 @@
 #textbox
 {
     width: 300px;
+}
+img{
+    border: 7px rgb(0, 0, 0);
+    border-style:outset;
+    width:fit-content;
+    height:fit-content;
+    margin-right: 10px;
+    box-shadow: 0 6px 8px 0 rgba(2, 2, 2, 0.7);
+}
+img:hover{
+    border-radius: 130px;
+}
+.column{
+    width: 40%;
+}
+#footer{
+    width: 84%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: darkslategray;
+    margin: 0px;
+    color: white;
+    font-size: 20px;
 }

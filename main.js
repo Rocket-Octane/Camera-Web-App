@@ -13,6 +13,5 @@ recognition.onresult = function(event){
     console.log(content);
     if (content == "selfie"){
         console.log("uploading photos --- ");
-        speak();
     }
 };
