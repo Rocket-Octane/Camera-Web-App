@@ -1,40 +1,44 @@
-body{
+body {
     background-color: lightgrey;
 }
-#start-btn
-{
+
+#start-btn {
     width: 40%;
-} 
-#camera
-{
-    width:360px;
-    height: 250px;
-    border:1px solid grey;
 }
-#logo_img
-{
+
+#camera {
+    width: 360px;
+    height: 250px;
+    border: 1px solid grey;
+}
+
+#logo_img {
     width: 150px;
     border-radius: 100px;
 }
-#textbox
-{
+
+#textbox {
     width: 300px;
 }
-img{
+
+img {
     border: 7px rgb(0, 0, 0);
-    border-style:outset;
-    width:fit-content;
-    height:fit-content;
+    border-style: outset;
+    width: fit-content;
+    height: fit-content;
     margin-right: 10px;
     box-shadow: 0 6px 8px 0 rgba(2, 2, 2, 0.7);
 }
-img:hover{
+
+img:hover {
     border-radius: 130px;
 }
-.column{
+
+.column {
     width: 40%;
 }
-#footer{
+
+#footer {
     width: 84%;
     position: fixed;
     bottom: 0;
